@@ -1,0 +1,91 @@
+/* Color palette
+main text #757575;
+header text #212121;
+primary accent #2196F3;
+secondary accent #ffffff;
+logo option one #000000;
+address rgba(255, 255, 255, 0.6);
+footer background #2F303A;*/
+
+:root {
+    --main-text: #757575;
+    --header-text: #212121;
+    --primary-accent: #2196F3;
+    --secondary-accent: #ffffff;
+    --logo-option-one: #000000;
+    --address: rgba(255, 255, 255, 0.6);
+}
+
+.header {
+    background: var(--secondary-accent);
+}
+
+.logo {
+    color: var(--primary-accent);
+}
+
+.logo-element {
+color: var(--logo-option-one);
+}
+
+.nav-link {
+    color: var(--header-text);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--primary-accent);
+}
+
+.address-link {
+    color: var(--main-text);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--primary-accent);
+}
+
+.hero {
+    background-color: #2F303A;
+
+}
+.hero-header {
+    color: var(--secondary-accent);
+}
+.button {
+    color: var(--secondary-accent);
+   background-color: var(--primary-accent);
+}
+.header {
+    color: var(--header-text);
+}
+.text {
+    color: var(--main-text);
+}
+.team {
+    background-color: #F5F4FA;
+}
+.team .header {
+    background-color: #F5F4FA;
+}
+.footer {
+    background-color: #2F303A;
+}
+.logo-option {
+    color: var(--secondary-accent);
+}
+.address {
+    color: var(--secondary-accent);
+}
+.address-details {
+    color:var(--address) ;
+}
+.filter-button {
+    color: var(--header-text);
+    background-color: #F5F4FA;
+}
+.filter-button:hover {
+    color: var(--secondary-accent);
+    background-color: var(--primary-accent);
+}
