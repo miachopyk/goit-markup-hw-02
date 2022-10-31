@@ -118,12 +118,11 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
+    text-align: left;
 }
 .text.team {
     font-size: 16px;
     line-height: 1.2;
-    text-align: center;
 }
 .footer {
     background-color: var(--footer-bg);
